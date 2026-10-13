@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--
+    SITE_URL: replace every "https://mukisa.mofictechnologies.site" in this file, robots.txt
+    and sitemap.xml with your real address once the site is online.
+  -->
+  <title>Mukisa Patrick – Software Engineer &amp; Founder of Mofic Technologies</title>
+  <meta name="description" content="Mukisa Patrick is a software engineering student at Ndejje University and technology entrepreneur in Uganda, founder of Mofic Technologies and creator of EduCore and KampalaGo.">
+  <meta name="author" content="Mukisa Patrick">
+  <link rel="canonical" href="https://mukisa.mofictechnologies.site/">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / social previews (WhatsApp, Facebook, LinkedIn, X) -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Mukisa Patrick – Software Engineer &amp; Entrepreneur">
+  <meta property="og:description" content="Software engineering student and technology entrepreneur in Uganda. Founder of Mofic Technologies.">
+  <meta property="og:url" content="https://mukisa.mofictechnologies.site/">
+  <meta property="og:image" content="https://mukisa.mofictechnologies.site/patrick.jpeg">
+  <meta property="profile:first_name" content="Patrick">
+  <meta property="profile:last_name" content="Mukisa">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mukisa Patrick – Software Engineer &amp; Entrepreneur">
+  <meta name="twitter:description" content="Software engineering student and technology entrepreneur in Uganda. Founder of Mofic Technologies.">
+  <meta name="twitter:image" content="https://mukisa.mofictechnologies.site/patrick.jpeg">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231d4ed8'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='700' fill='white' text-anchor='middle'%3EMP%3C/text%3E%3C/svg%3E">
+
+  <!--
+    Structured data: tells Google who you are and which profiles belong to you.
+    Each personal profile URL is listed in "sameAs"; keep it in sync with the links on the page.
+  -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://mukisa.mofictechnologies.site/#person",
+        "name": "Mukisa Patrick",
+        "alternateName": ["Patrick Mukisa"],
+        "givenName": "Patrick",
+        "familyName": "Mukisa",
+        "url": "https://mukisa.mofictechnologies.site/",
+        "image": "https://mukisa.mofictechnologies.site/patrick.jpeg",
+        "jobTitle": "Software Engineering Student & Technology Entrepreneur",
+        "description": "Software engineering student at Ndejje University and technology entrepreneur in Uganda, founder of Mofic Technologies.",
+        "nationality": { "@type": "Country", "name": "Uganda" },
+        "homeLocation": { "@type": "Place", "address": { "@type": "PostalAddress", "addressCountry": "UG" } },
+        "alumniOf": [
+          { "@type": "CollegeOrUniversity", "name": "Ndejje University" },
+          { "@type": "EducationalOrganization", "name": "Cisco Networking Academy" }
+        ],
+        "founder": { "@id": "https://mukisa.mofictechnologies.site/#mofic" },
+        "knowsAbout": [
+          "Software Engineering", "Web Development", "Mobile App Development",
+          "Database Systems", "Computer Networking", "Routing",
+          "Linux Administration", "System Administration", "Information Technology",
+          "Technology Entrepreneurship"
+        ],
+        "sameAs": [
+          "https://github.com/pato-cmd",
+          "https://www.linkedin.com/in/mukisa-patrick-6405402b2",
+          "https://x.com/mukisap05089331",
+          "https://www.instagram.com/eng_fic_patrick"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://mukisa.mofictechnologies.site/#mofic",
+        "name": "Mofic Technologies",
+        "founder": { "@id": "https://mukisa.mofictechnologies.site/#person" },
+        "url": "https://mofictechnologies.site/",
+        "sameAs": ["https://www.tiktok.com/@mofictech"],
+        "description": "Technology business providing software development, web and mobile app development, IT consultancy and digital branding.",
+        "areaServed": "Uganda"
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://mukisa.mofictechnologies.site/#webpage",
+        "url": "https://mukisa.mofictechnologies.site/",
+        "name": "Mukisa Patrick",
+        "mainEntity": { "@id": "https://mukisa.mofictechnologies.site/#person" }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --surface: #ffffff;
+      --text: #14171f;
+      --muted: #5b6372;
+      --line: #e3e6ec;
+      --accent: #1d4ed8;
+      --accent-soft: #e8eefc;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0e1116;
+        --surface: #161a22;
+        --text: #e8ebf1;
+        --muted: #9aa3b2;
+        --line: #262c38;
+        --accent: #7aa2ff;
+        --accent-soft: #1b2440;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    }
+    a { color: var(--accent); }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+
+    header { padding: 64px 0 40px; }
+    .hero { display: flex; gap: 28px; align-items: center; flex-wrap: wrap; }
+    .avatar {
+      width: 132px; height: 132px; border-radius: 50%;
+      object-fit: cover; flex-shrink: 0;
+      background: var(--accent); color: #fff;
+      display: grid; place-items: center;
+      font-size: 44px; font-weight: 700;
+      border: 4px solid var(--surface);
+      box-shadow: 0 2px 12px rgba(0,0,0,.08);
+    }
+    h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.15; margin: 0 0 6px; letter-spacing: -0.02em; }
+    .tagline { color: var(--muted); margin: 0; font-size: 1.05rem; }
+    .loc { color: var(--muted); font-size: .95rem; margin-top: 6px; }
+
+    .socials { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; padding: 0; list-style: none; }
+    .socials a {
+      display: inline-block; padding: 8px 16px; border-radius: 999px;
+      background: var(--accent-soft); text-decoration: none; font-weight: 600; font-size: .92rem;
+    }
+    .socials a:hover { background: var(--accent); color: #fff; }
+
+    section { padding: 28px 0; border-top: 1px solid var(--line); }
+    h2 { font-size: 1.3rem; margin: 0 0 14px; letter-spacing: -0.01em; }
+    p { margin: 0 0 14px; }
+
+    .cards { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .card {
+      background: var(--surface); border: 1px solid var(--line);
+      border-radius: 14px; padding: 18px 20px;
+    }
+    .card h3 { margin: 0 0 6px; font-size: 1.05rem; }
+    .card p { margin: 0; color: var(--muted); font-size: .95rem; }
+    .label { display: inline-block; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--accent); margin-bottom: 6px; }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; margin: 0; }
+    .tags li { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 4px 12px; font-size: .9rem; }
+
+    footer { padding: 32px 0 48px; color: var(--muted); font-size: .9rem; border-top: 1px solid var(--line); }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="hero">
+      <img class="avatar" src="patrick.jpeg" alt="Mukisa Patrick" width="132" height="132"
+           onerror="this.outerHTML='<div class=&quot;avatar&quot; role=&quot;img&quot; aria-label=&quot;Mukisa Patrick&quot;>MP</div>'">
+      <div>
+        <h1>Mukisa Patrick</h1>
+        <p class="tagline">Software engineering student &amp; technology entrepreneur. Founder of Mofic Technologies.</p>
+        <p class="loc">Uganda</p>
+      </div>
+    </div>
+
+    <ul class="socials">
+      <li><a href="https://www.linkedin.com/in/mukisa-patrick-6405402b2" rel="me">LinkedIn</a></li>
+      <li><a href="https://github.com/pato-cmd" rel="me">GitHub</a></li>
+      <li><a href="https://x.com/mukisap05089331" rel="me">X</a></li>
+      <li><a href="https://www.instagram.com/eng_fic_patrick" rel="me">Instagram</a></li>
+      <li><a href="https://www.tiktok.com/@mofictech">TikTok · Mofic Tech</a></li>
+    </ul>
+  </header>
+
+  <main class="wrap">
+    <section id="about">
+      <h2>About Mukisa Patrick</h2>
+      <p><strong>Mukisa Patrick</strong> is a software engineering student and technology entrepreneur based in Uganda, with an interest in developing practical software solutions and building technology-driven businesses.</p>
+      <p>He is pursuing a Bachelor's degree in Software Engineering at <strong>Ndejje University</strong> and has also undertaken networking studies covering routing and system administration through <strong>Cisco Networking Academy</strong>.</p>
+      <p>Beyond building software, Patrick is interested in technology entrepreneurship, continuous learning, and developing digital products that can grow into sustainable businesses. His long-term ambition is to strengthen his expertise in software engineering, deliver useful technology solutions, and build Mofic Technologies into a recognised and trusted technology brand.</p>
+    </section>
+
+    <section id="mofic">
+      <h2>Mofic Technologies</h2>
+      <p>Patrick is establishing <strong>Mofic Technologies</strong>, a technology business providing services to individuals, businesses and organisations:</p>
+      <div class="cards">
+        <div class="card"><h3>Software Development</h3><p>Custom software built around real business needs.</p></div>
+        <div class="card"><h3>Web &amp; Mobile Apps</h3><p>Websites, web applications and mobile apps.</p></div>
+        <div class="card"><h3>IT Consultancy</h3><p>Advice on systems, networks and technology choices.</p></div>
+        <div class="card"><h3>Digital Branding</h3><p>Helping brands build a strong presence online.</p></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <span class="label">In development</span>
+          <h3>EduCore</h3>
+          <p>A school management platform designed to help secondary schools manage academic and administrative activities.</p>
+        </div>
+        <div class="card">
+          <span class="label">Concept</span>
+          <h3>KampalaGo</h3>
+          <p>A mobile app concept to help drivers find and book parking spaces in Kampala.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills &amp; Interests</h2>
+      <ul class="tags">
+        <li>Software Development</li>
+        <li>Web Applications</li>
+        <li>Mobile Applications</li>
+        <li>Database Systems</li>
+        <li>Computer Networking</li>
+        <li>Routing</li>
+        <li>Linux Administration</li>
+        <li>System Administration</li>
+        <li>Information Technology</li>
+        <li>Tech Entrepreneurship</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="cards">
+        <div class="card"><h3>Ndejje University</h3><p>Bachelor's degree in Software Engineering (in progress)</p></div>
+        <div class="card"><h3>Cisco Networking Academy</h3><p>Networking studies: routing and system administration</p></div>
+      </div>
+    </section>
+
+    <!-- Optional contact section: uncomment and fill in if you want a public email. -->
+    <!--
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:YOUR-EMAIL">YOUR-EMAIL</a></p>
+    </section>
+    -->
+  </main>
+
+  <footer class="wrap">
+    &copy; <span id="y">2026</span> Mukisa Patrick · Mofic Technologies
+    <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>

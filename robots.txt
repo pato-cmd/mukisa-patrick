@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mukisa.mofictechnologies.site/sitemap.xml
